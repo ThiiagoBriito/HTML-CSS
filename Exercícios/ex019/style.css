@@ -1,0 +1,40 @@
+body {
+    background-color: #9efa91;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #2b9e1c;
+}
+
+#principal {
+    text-align: center;
+    background-color: #35c022 ;
+    color: #ffffff;
+}
+
+#basico {
+    color: #35c022;
+}
+
+#intermediario {
+    color: #bbc022;
+}
+
+#avancado {
+    color: #c02222;
+}
+
+h2 {
+    color: #53bb45;
+}
+
+.categoria {
+    background-color: #72ce66;   
+    font-weight: 600;
+}
+
+.title-avancado {
+    font-size: 40px;
+    background-color: #be4242;
+}
