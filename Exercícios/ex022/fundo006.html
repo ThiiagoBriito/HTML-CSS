@@ -7,16 +7,26 @@
     <title>Fundo fixo de tela</title>
     <style>
         body {
-            height: 100vh;
+            /*height: 100vh;
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;*/
+
+            /*Shorthand background:
+            
+            Color > image > position > repeat > [size] >attachment
+            
+            */
+
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed; /*Esse modo funciona mas sem o background-size*/
+            background-size: cover;
         }
 
         main {
-            width: 400px;
+            max-width: 400px;
             background-color: white;
             margin: auto;
             padding: 10px;
@@ -33,7 +43,7 @@
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore praesentium voluptatum possimus! Nesciunt blanditiis laboriosam velit ullam veniam natus doloribus quia tempore fugiat animi veritatis quasi quos, commodi, dignissimos nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos facere dolor aperiam repellat blanditiis atque odio pariatur, voluptatum debitis facilis nisi quaerat similique quis autem ea dicta, sint vero? Itaque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus deleniti, amet commodi, modi quos iste beatae architecto distinctio deserunt explicabo obcaecati dolores numquam incidunt illo accusamus laboriosam, dolor illum ipsum?</p>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore praesentium voluptatum possimus! Nesciunt blanditiis laboriosam velit ullam veniam natus doloribus quia tempore fugiat animi veritatis quasi quos, commodi, dignissimos nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos facere dolor aperiam repellat blanditiis atque odio pariatur, voluptatum debitis facilis nisi quaerat similique quis autem ea dicta, sint vero? Itaque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus deleniti, amet commodi, modi quos iste beatae architecto distinctio deserunt explicabo obcaecati dolores numquam incidunt illo accusamus laboriosam, dolor illum ipsum?</p>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore praesentium voluptatum possimus! Nesciunt blanditiis laboriosam velit ullam veniam natus doloribus quia tempore fugiat animi veritatis quasi quos, commodi, dignissimos nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos facere dolor aperiam repellat blanditiis atque odio pariatur, voluptatum debitis facilis nisi quaerat similique quis autem ea dicta, sint vero? Itaque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus deleniti, amet commodi, modi quos iste beatae architecto distinctio deserunt explicabo obcaecati dolores numquam incidunt illo accusamus laboriosam, dolor illum ipsum?</p>
-        
+
     </main>
 </body>
 </html>
